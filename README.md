@@ -31,27 +31,36 @@ Click on the live demo to see it in action!
 
 ## Progress Images
 
-![Reference Image](images/reference.jpg)
+Reference Image
+![](images/reference.jpg)
 
-![Modeling the Switch using SDFs](images/01.png)
+Modeling the Switch using SDFs
+![](images/01.png)
 
-![Initial scene setup](images/02.png)
+Initial scene setup
+![](images/02.png)
 ![](images/04.png)
 (Note the incorrect SDF-based shadows)
 
-![Texturing the table using noise functions](images/05.png)
+Texturing the table using noise functions
+![](images/05.png)
 In the table's case, only the color is changed while the surface stays flat.
 
-![Adding light sources](images/06.png)
+Adding light sources
+![](images/06.png)
 
-![Texturing the wall using noise functions](images/07.png)
+Texturing the wall using noise functions
+![](images/07.png)
 On the other hand, in the wall's case the noise is used to displace the surface and the SDF used to create the wall.
 
-![Refinement of light sources](images/08.png)
+Refinement of light sources
+![](images/08.png)
 
-![Added books + noise function on the screen to create a static effect](images/09.png)
+Added books + noise function on the screen to create a static effect
+![](images/09.png)
 
-![Final scene, with softer lighting and more shadows](images/10.png)
+Final scene, with softer lighting and more shadows
+![](images/10.png)
 
 ## References
 Several articles from [the blog of Inigo Quilez]((http://www.iquilezles.org/www/index.htm)), including [3D SDF functions](http://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm) and [Penumbra Shadows](http://www.iquilezles.org/www/articles/rmshadows/rmshadows.htm)
