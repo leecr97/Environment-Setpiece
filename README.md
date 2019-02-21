@@ -10,7 +10,7 @@ Email: leecr@seas.upenn.edu
 ![](introimage.png)
 
 ## Live Project Demo
-[Link]
+[Link](https://leecr97.github.io/Environment-Setpiece/)
 
 ## Project Description
 This project is a procedurally modeled and animated environment scene created using a custom shader. It combines a variety of techniques, including noise functions, raymarching, and signed distance functions. 
@@ -25,7 +25,7 @@ The scene also makes use of several noise functions. Perlin noise is used both t
 
 The largest source of light in the scene is of course the lamp, which illuminates the majority of the scene. The glow around the lamp is created by calculating the difference from our raymarched point in screen space to our lamp in screen space and making the points close to the lamp to have a "halo" effect. There are also other light sources around the camera to light the scene from the eye's point of view, so that things do not appear as excessively dark.
 
-Other effects include a brown-hued distance fog and shadow effects. While there exists a graceful SDF-based shadow implementation, I unfortunately couldn't seem to make it work in my scene so I instead elected to hardcode my shadows and their placement and brightness. Using this method, I created shadows for my Switch from both the lamp and the other light sources.
+Other effects include a slight distance fog and shadows. While there does exist a graceful SDF-based shadow implementation, I unfortunately couldn't seem to make it work in my scene so I instead elected to hardcode my shadows and their placement and brightness. Using this method, I created shadows for my Switch from both the lamp and the other light sources.
 
 Click on the live demo to see it in action!
 
